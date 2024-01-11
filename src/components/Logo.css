@@ -1,5 +1,17 @@
 .logo{
-    z-index: 1;
-    background-color: bisque;
-    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(../../img/precise-logo.png);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.logo:hover{
+    transform: scale(1.05);
+    transition: .5s ease all;
+}
+
+.logo:not(:hover){
+    transition: 1s ease all;
 }
