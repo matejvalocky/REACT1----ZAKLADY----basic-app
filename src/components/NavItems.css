@@ -5,9 +5,11 @@
 
 
 .nav-items ul li{
+    display: inline-block;
     list-style-type: none;
     margin: 0 50px;
     cursor: pointer;
+    background-color: red;
 }
 
 
