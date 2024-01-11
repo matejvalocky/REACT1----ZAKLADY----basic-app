@@ -4,14 +4,17 @@ import OrderButton from './OrderButton'
 
 
 
-const Track = () => {
+const Track = (props) => {
   return (
-    <div className="track">
-        <h1>Mix číslo: </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, at.</p>
+    
+      
+      <div className="track">
+        <h1>Mix číslo: {props.myid}</h1>
+        <p>{props.mytitle}</p>
         <OrderButton></OrderButton>
-
     </div>
+    
+   
   )
 }
 
