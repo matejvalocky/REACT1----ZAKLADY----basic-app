@@ -1,15 +1,15 @@
 .nav-items ul{
     display: flex;
     margin-left: 50px;
+    background-color: yellow;
 }
 
 
 .nav-items ul li{
     display: inline-block;
     list-style-type: none;
-    margin: 0 50px;
+    margin: 0 25px;
     cursor: pointer;
-    background-color: red;
 }
 
 

@@ -6,13 +6,20 @@ import LogOut from "./LogOut"
 
 const Nav = () => {
   return (
-    
-        <div className="nav-wrapper">
-            <Logo></Logo>
-            <NavItems></NavItems>
-            <LogOut></LogOut>
+
+    <div className="nav">
+      <div className="nav-wrapper">
+        <div className="left-side">
+          <Logo></Logo>
+          <NavItems></NavItems>
         </div>
-    
+        <div className="right-side">
+          <LogOut></LogOut>
+        </div>
+      </div>
+
+    </div>
+
   )
 }
 
