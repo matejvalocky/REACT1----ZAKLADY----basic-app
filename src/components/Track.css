@@ -1,0 +1,16 @@
+.track{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border: 2px red solid;
+}
+
+.track:hover{
+    transform: scale(0.9);
+    transition: .5s ease all;
+}
+
+.track:not(:hover){
+    transition: .2s ease all;
+}
