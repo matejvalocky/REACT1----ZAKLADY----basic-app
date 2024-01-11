@@ -1,0 +1,11 @@
+.nav-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 400px;
+    z-index: 0;
+    width: 100vw;
+    height: 100px;
+    background-color: green;
+}
