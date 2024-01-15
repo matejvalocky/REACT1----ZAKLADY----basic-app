@@ -6,11 +6,15 @@
     border: 2px red solid;
 }
 
-.track:hover{
+/* .track:hover{
     transform: scale(0.9);
     transition: .5s ease all;
 }
 
 .track:not(:hover){
     transition: .2s ease all;
+} */
+
+.track img{
+    width: 100px;
 }

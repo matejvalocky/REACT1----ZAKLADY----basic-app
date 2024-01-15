@@ -11,7 +11,7 @@ const App = () => {
     {
       id: 1,
       image: "https://www.knihydobrovsky.cz/thumbs/book-list/mod_eshop/produkty/h/harry-potter-a-kamen-mudrcu-9788000061917.jpg.webp",
-      title: "Harry Potter a Jozef mudrců"
+      title: "Harry Potter a Kámen mudrců"
     },
     {
       id: 2,
@@ -27,17 +27,23 @@ const App = () => {
 
 
 
+
+
   return (
     <div>
       <Nav></Nav>
       <div className="wrapper">
+
+        {books.map((book) => (
+          <Track key={book.id} myid={book.id} myimage={book.image} mytitle={book.title} />
+        ))}
 
 
         <Track myid={books[0].id} myimage={books[0].image} mytitle={books[0].title} />
         <Track myid={books[1].id} myimage={books[1].image} mytitle={books[1].title} />
         <Track myid={books[2].id} myimage={books[2].image} mytitle={books[2].title} />
 
-       
+
 
 
 
