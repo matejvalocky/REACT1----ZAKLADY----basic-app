@@ -33,6 +33,11 @@ const Counter = () => {
         setCount(0)
     }
 
+    // ošetrenie záporných hodnôt
+    if(count<0){
+        setCount(0)
+    }
+
 
 
 
@@ -40,12 +45,12 @@ const Counter = () => {
 
     return (
         <div className='counter'>
-            <p>Počet: {count} </p>
+            <p>Objednaj: {count} kusov</p>
             <button onClick={zvysenie}>Zvýš o 1</button>
             <button onClick={znizenie}>Zníž o 1</button>
-            <button onClick={naTretiu}>Na tretiu</button>
+            {/* <button onClick={naTretiu}>Na tretiu</button>
             <button onClick={naDruhu}>Na druhu</button>
-            <button onClick={vynuluj}>vynuluj</button>
+            <button onClick={vynuluj}>vynuluj</button> */}
         </div>
     )
 }

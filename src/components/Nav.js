@@ -13,9 +13,9 @@ const Nav = () => {
           <Logo></Logo>
           <NavItems></NavItems>
         </div>
-        <div className="right-side">
+        
           <LogOut></LogOut>
-        </div>
+        
       </div>
 
     </div>

@@ -7,18 +7,20 @@ import Counter from './Counter'
 
 const Track = (props) => {
   return (
-    
-      
-      <div className="track">
-        
+
+
+    <div className="track">
+      <h1>Kniha číslo: {props.myid}</h1>
+      <div className="book-info">
         <img src={props.myimage} alt="" />
-        <h1>Kniha číslo: {props.myid}</h1>
         <p>{props.mytitle}</p>
-        <OrderButton></OrderButton>
-        <Counter></Counter>
+      </div>
+
+      <OrderButton></OrderButton>
+      <Counter></Counter>
     </div>
-    
-   
+
+
   )
 }
 
